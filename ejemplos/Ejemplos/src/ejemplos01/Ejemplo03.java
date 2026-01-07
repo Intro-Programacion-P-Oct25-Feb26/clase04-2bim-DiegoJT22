@@ -16,7 +16,12 @@ public class Ejemplo03 {
         int valor = obtenerSuma(10, 30); // se invoca al método 
                                          // obtenerSuma
         System.out.printf("El valor de la suma es: %d\n", valor);
-        
+        /*
+        System.out.printf(suma);        
+        En esta linea existe error ya que la varible suma existe unicamente en 
+        la funcion obtenerSuma siendo unicamente una variable local de esa 
+        funcion
+        */
         // System.out.printf("El valor de la suma es: %d\n", obtenerSuma(10, 30));
     }
     
